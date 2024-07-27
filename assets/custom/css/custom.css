@@ -1,0 +1,17 @@
+#details {
+    display: none;
+}
+
+.receitas-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.receitas-grid .col-md-4 {
+    flex: 1 1 calc(33.333% - 1rem);
+    margin: 0.5rem;
+}
+
+.imagem-detalhes{
+    padding: 250px;
+}
